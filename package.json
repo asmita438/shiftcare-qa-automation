@@ -2,11 +2,23 @@
   "name": "shiftcare-qa-automation",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report",
+    "test:parallel": "npx playwright test --workers=4"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "e2e"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Automated test suite for ShiftCare using Playwright",
   "devDependencies": {
     "@playwright/test": "^1.51.1",
     "@types/node": "^22.13.11"
