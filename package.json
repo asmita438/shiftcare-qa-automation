@@ -21,6 +21,7 @@
   "description": "Automated test suite for ShiftCare using Playwright",
   "devDependencies": {
     "@playwright/test": "^1.51.1",
+    "@types/dotenv": "^6.1.1",
     "@types/node": "^22.13.11"
   }
 }
